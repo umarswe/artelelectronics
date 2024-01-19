@@ -6,6 +6,7 @@ import News from "./pages/News";
 import Shop from "./pages/Shop";
 import Review from "./pages/Review";
 import Catalog from "./pages/Catalog";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/review" element={<Review />} />
         <Route path="/catalog" element={<Catalog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
