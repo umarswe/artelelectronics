@@ -29,71 +29,8 @@
   margin-bottom: 60px;
 }
 
-.contact__select-label {
-  color: #e6e7e8;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 21.6px */
-}
-
-.select__input-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  border-bottom: 1px solid #e6e7e8;
-  margin-top: 15px;
-}
-
-.select__modal-options {
-  position: absolute;
-  top: 28px;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  background-color: white;
-  opacity: 0;
-  transition: all 0.5s ease-in;
-}
-
 .visibility {
   opacity: 1;
-}
-
-.select__modal-lists {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.modal__list-option {
-  list-style: none;
-  color: #4f5359;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%; /* 21.6px */
-}
-
-.select__input-wrapper::before {
-  content: "Узбекистан";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  color: #fff;
-  user-select: none;
-  position: absolute;
-}
-
-.select__input {
-  border: none;
-  background-color: transparent;
-}
-
-.select__input-icon {
-  transition: all 0.3s;
 }
 
 .hero__contact-row {
@@ -134,6 +71,19 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  transition: all 0.1s;
+}
+
+.hero__contact-cooperation:hover {
+  background-color: #fff;
+
+  span {
+    color: #006c41;
+  }
+
+  .hero__cooperation-icon path {
+    stroke: #006c41;
+  }
 }
 
 .hero__contact-cooperation span {

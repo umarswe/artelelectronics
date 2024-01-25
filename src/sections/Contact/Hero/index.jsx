@@ -1,11 +1,7 @@
-import "./style.css";
-import Arrow from "../../../assets/images/arrow-white.svg";
-import { useRef } from "react";
+import "./style.scss";
+import Select from "../../../components/Select";
 
 function Hero() {
-  const openIconRef = useRef(null);
-  const modalOpenRef = useRef(null);
-
   const EMAILS = [
     {
       email: "info@artelelectronics.com",
@@ -39,45 +35,17 @@ function Hero() {
       .scrollIntoView({ behavior: "smooth" });
   };
 
-  const handleOpen = () => {
-    openIconRef.current.classList.toggle("rotate");
-    modalOpenRef.current.classList.toggle("visibility");
-  };
-
   return (
     <div className="hero">
       <div className="hero__contact">
         <h1 className="contact__title">Контакты</h1>
 
         <div className="hero__contact-information">
-          <div className="contact__information-select">
-            <label className="contact__select-label" htmlFor="select-countries">
-              Выберите регион
-            </label>
-            <div className="select__input-wrapper">
-              <input
-                className="select__input"
-                type="text"
-                id="select-countries"
-              />
-              <span
-                className="select__input-icon"
-                ref={openIconRef}
-                onClick={handleOpen}
-              >
-                <img src={Arrow} alt="" />
-              </span>
-
-              <div className="select__modal-options" ref={modalOpenRef}>
-                <ul className="select__modal-lists">
-                  <li className="modal__list-option">Uzbekistan</li>
-                  <li className="modal__list-option">Kazakhstan</li>
-                  <li className="modal__list-option">Krgyzstan</li>
-                  <li className="modal__list-option">Russia</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <Select
+            label="Select Region"
+            options={["Uzbekistan", "Kazakhstan", "Krgyzstan", "Russia"]}
+            onSelect={(option) => console.log(option)}
+          />
 
           <div className="hero__contact-row">
             <div className="hero__contact-box">

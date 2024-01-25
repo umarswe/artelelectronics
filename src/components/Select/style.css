@@ -1,0 +1,78 @@
+.select {
+  position: relative;
+  max-width: 250px;
+  margin: 50px 0;
+}
+
+.contact__select-label {
+  color: #e6e7e8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+
+.select__modal-options {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.select__input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #e6e7e8;
+  margin-top: 15px;
+}
+
+.select__input-wrapper::before {
+  content: "";
+  position: absolute;
+}
+
+.select__input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #fff;
+}
+
+.select__input-icon {
+  transition: all 0.3s;
+}
+
+.select__modal-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.visibility {
+  opacity: 1;
+}
+
+.select__modal-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal__list-option {
+  list-style: none;
+  color: #4f5359;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  cursor: pointer;
+}
