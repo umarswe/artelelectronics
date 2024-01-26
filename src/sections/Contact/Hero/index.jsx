@@ -1,7 +1,13 @@
 import "./style.scss";
 import Select from "../../../components/Select";
+import { useState } from "react";
 
 function Hero() {
+  const [selectedRegion, setSelectedRegion] = useState("Uzbekistan");
+
+  const handleSelectRegion = (region) => {
+    setSelectedRegion(region);
+  };
   const EMAILS = [
     {
       email: "info@artelelectronics.com",
@@ -44,12 +50,24 @@ function Hero() {
           <Select
             label="Select Region"
             options={["Uzbekistan", "Kazakhstan", "Krgyzstan", "Russia"]}
-            onSelect={(option) => console.log(option)}
+            onSelect={handleSelectRegion}
+            updatePhoneNumber={handleSelectRegion}
           />
 
           <div className="hero__contact-row">
             <div className="hero__contact-box">
-              <p className="hero__contact-phone">+998 (78) 148-88-88</p>
+              {selectedRegion === "Uzbekistan" && (
+                <p className="hero__contact-phone">+998 (78) 148-88-88</p>
+              )}
+              {selectedRegion === "Kazakhstan" && (
+                <p className="hero__contact-phone">+997 (78) 147-77-77</p>
+              )}
+              {selectedRegion === "Krgyzstan" && (
+                <p className="hero__contact-phone">+996 (78) 146-66-66</p>
+              )}
+              {selectedRegion === "Russia" && (
+                <p className="hero__contact-phone">+995 (78) 145-55-55</p>
+              )}
               <p className="hero__contact-name">Единая служба поддержки</p>
             </div>
             <div className="hero__contact-box">

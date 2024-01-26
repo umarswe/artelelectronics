@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import "./style.css";
 import Arrow from "../../assets/images/arrow-white.svg";
 
-function FormInputSelectModal({ label, options, onSelect }) {
+function FormInputSelectModal({ label, options, onSelect, updatePhoneNumber }) {
   const [selectedOption, setSelectedOption] = useState(options[0]);
   const openIconRef = useRef(null);
   const modalOpenRef = useRef(null);
@@ -11,6 +11,12 @@ function FormInputSelectModal({ label, options, onSelect }) {
   const handleOpen = () => {
     openIconRef.current.classList.toggle("rotate");
     modalOpenRef.current.classList.toggle("visibility");
+  };
+
+  const handleSelect = (option) => {
+    onSelect(option);
+    setSelectedOption(option);
+    updatePhoneNumber(option);
   };
 
   return (
@@ -31,10 +37,7 @@ function FormInputSelectModal({ label, options, onSelect }) {
             <li
               key={index}
               className="modal__list-option"
-              onClick={() => {
-                onSelect(option);
-                setSelectedOption(option);
-              }}
+              onClick={() => handleSelect(option)}
             >
               {option}
             </li>
