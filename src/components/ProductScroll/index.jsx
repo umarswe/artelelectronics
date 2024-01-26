@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import deg360 from "../../assets/images/image-360deg.mp4";
-import deg360Thumb from "../../assets/images/360deg.svg";
-import middle from "../../assets/images/scrool-image-middle.png";
-import left from "../../assets/images/scroll-image-left.png";
-import right from "../../assets/images/scroll-image-right.png";
+// import deg360Thumb from "../../assets/images/360deg.svg";
+// import middle from "../../assets/images/scrool-image-middle.png";
+// import left from "../../assets/images/scroll-image-left.png";
+// import right from "../../assets/images/scroll-image-right.png";
 import reviewImage from "../../assets/images/review_image.png";
 
 // Import Swiper styles
@@ -36,7 +36,7 @@ export default function App() {
         className="swiper-thumbs"
         direction="vertical"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img className="image-scroll" src={deg360Thumb} />
         </SwiperSlide>
         <SwiperSlide>
@@ -47,7 +47,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <img className="image-scroll" src={right} />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <Swiper
         loop={true}

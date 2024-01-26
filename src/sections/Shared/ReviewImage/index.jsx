@@ -71,7 +71,6 @@ function ReviewImage() {
   console.log(MAXIUM_CAPACITIES);
 
   console.log(maxCapacity);
-  console.log("sdfsdf");
 
   return (
     <div className="product-section">

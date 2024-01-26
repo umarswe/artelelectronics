@@ -7,7 +7,6 @@ function FormSubmitModal({ formSubmit }) {
   const handleCloseModal = () => {
     // eslint-disable-next-line react/prop-types
     formSubmit.current.classList.remove("visibility");
-    console.log("clicked");
   };
 
   return (

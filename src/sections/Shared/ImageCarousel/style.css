@@ -66,6 +66,7 @@
   font-weight: 700;
   line-height: 28.656px; /* 162.5% */
   padding: 16px 26px;
+  cursor: pointer;
 }
 
 .pagination {
@@ -104,4 +105,10 @@
   font-style: normal;
   font-weight: 400;
   margin-bottom: 60px;
+}
+
+/* swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal */
+
+.swiper-pagination {
+  display: none;
 }

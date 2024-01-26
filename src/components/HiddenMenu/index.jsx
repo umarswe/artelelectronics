@@ -3,7 +3,7 @@ import LivingRoom from "../../assets/images/LivingRoom.png";
 import Cleaning from "../../assets/images/Cleaning.png";
 import Kitchen from "../../assets/images/Kitchen.png";
 
-import "./style.css";
+import "./style.scss";
 import { Link } from "react-router-dom";
 
 function HiddenMenu() {
@@ -12,20 +12,31 @@ function HiddenMenu() {
       <div className="menu__border"></div>
       <div className="menu__items">
         <div className="menu__images">
-          <img className="menu__images-news" src={News} alt="news" />
-
-          <img
-            className="menu__images-livingroom"
-            src={LivingRoom}
-            alt="LivingRoom"
-          />
-          <div className="images__box">
+          <div className="menu__images-wrapper">
+            <img className="menu__images-news" src={News} alt="news" />
+          </div>
+          <div className="menu__images-wrapper">
             <img
-              className="menu__images-cleaning"
-              src={Cleaning}
-              alt="Cleaning"
+              className="menu__images-livingroom"
+              src={LivingRoom}
+              alt="LivingRoom"
             />
-            <img className="menu__images-kitchen" src={Kitchen} alt="Kitchen" />
+          </div>
+          <div className="images__box">
+            <div className="menu__images-wrapper">
+              <img
+                className="menu__images-cleaning"
+                src={Cleaning}
+                alt="Cleaning"
+              />
+            </div>
+            <div className="menu__images-wrapper">
+              <img
+                className="menu__images-kitchen"
+                src={Kitchen}
+                alt="Kitchen"
+              />
+            </div>
           </div>
         </div>
         <div className="menu__about">

@@ -3,13 +3,15 @@ import AdvantagesInfo from "../sections/Review/AdvantagesInfo";
 import Branches from "../sections/Review/Branches";
 
 import ProductView from "../sections/Review/ProductView";
-import ReviewImage from "../sections/Review/ReviewImage";
+import ReviewImage from "../sections/Shared/ReviewImage";
 import Contact from "../sections/Shared/Contact";
 
 function Review() {
   return (
     <>
-      <ReviewImage />
+      <div style={{ paddingTop: "200px" }}>
+        <ReviewImage />
+      </div>
       <Advantages />
       <AdvantagesInfo />
       <ProductView />

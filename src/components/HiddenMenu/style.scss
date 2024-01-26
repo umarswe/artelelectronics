@@ -62,10 +62,14 @@
   text-decoration: none;
 }
 
-.menu__images-news:hover,
-.menu__images-livingroom:hover,
-.menu__images-cleaning:hover,
-.menu__images-kitchen:hover {
-  transform: scale(1.1);
+.menu__images-wrapper img {
+  width: 100%;
+  height: 100%;
   transition: all 0.3s;
+}
+
+.menu__images-wrapper:hover {
+  img {
+    transform: scale(1.1);
+  }
 }
