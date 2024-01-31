@@ -7,6 +7,7 @@ import Shop from "./pages/Shop";
 import Review from "./pages/Review";
 import Catalog from "./pages/Catalog";
 import Contact from "./pages/Contact";
+import Management from "./pages/Management";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/management" element={<Management />} />
       </Routes>
       <Footer />
     </>
