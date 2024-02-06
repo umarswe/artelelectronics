@@ -9,8 +9,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [showMenu, setShowMenu] = useState(false);
   const navbarListRef = useRef(null);
+  const menuTitleRef = useRef(null);
+  const [showMenu, setShowMenu] = useState(false);
   const [menuTitle, setMenuTitle] = useState("Меню");
   const [menuIcon, setMenuIcon] = useState(Menu);
 
@@ -19,6 +20,7 @@ function Navbar() {
     setMenuTitle(menuTitle === "Меню" ? "Закрыть" : "Меню");
     setMenuIcon(menuIcon === Menu ? Close : Menu);
     navbarListRef.current.classList.toggle("menu-visible");
+    menuTitleRef.current.classList.toggle("menu__title-open");
   };
 
   useEffect(() => {
@@ -72,7 +74,11 @@ function Navbar() {
 
           <div className="navbar__buttons">
             <button className="navbar__buttons-business">Бизнес</button>
-            <button className="navbar__buttons-menu" onClick={handleMenu}>
+            <button
+              className="navbar__buttons-menu"
+              ref={menuTitleRef}
+              onClick={handleMenu}
+            >
               <span className="navbar__buttons-menu_title">{menuTitle}</span>
               <img src={menuIcon} alt="Menu" />
             </button>

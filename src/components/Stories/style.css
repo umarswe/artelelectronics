@@ -65,3 +65,8 @@ body {
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "";
+}

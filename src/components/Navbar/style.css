@@ -115,6 +115,11 @@
   line-height: 32px; /* 200% */
 }
 
+.menu__title-open {
+  border: none;
+  padding: 16px 17.2px;
+}
+
 .navbar__buttons-menu {
   display: flex;
   justify-content: center;

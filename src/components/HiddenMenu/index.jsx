@@ -54,7 +54,9 @@ function HiddenMenu() {
             </li>
           </ul>
           <ul className="menu__about-list">
-            <li>Сервис</li>
+            <Link to="/service">
+              <li>Сервис</li>
+            </Link>
             <li>Гарантия</li>
             <li>Аксессуары и запчасти</li>
             <li>Заявка на ремонт</li>
