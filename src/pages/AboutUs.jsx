@@ -1,4 +1,5 @@
 import Hero from "../sections/AboutUs/Hero";
+import History from "../sections/AboutUs/History";
 import Mission from "../sections/AboutUs/Mission";
 import Partners from "../sections/AboutUs/Partners";
 import Strategy from "../sections/AboutUs/Strategy";
@@ -12,6 +13,7 @@ function AboutUs() {
       <Strategy />
       <Mission />
       <Valuation />
+      <History />
     </>
   );
 }

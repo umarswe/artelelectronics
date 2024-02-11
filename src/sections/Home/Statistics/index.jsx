@@ -42,7 +42,7 @@ function Statistics() {
         </div>
         <div className="statistics__container-box">
           <p className="statistics__container-numbers">
-            <CountUp end={55} duration={5} />
+            <CountUp end={95} duration={5} />
           </p>
           <span className="statistics__container-info">
             Рыночной доли от общего <br /> объема рынка в 2023 году

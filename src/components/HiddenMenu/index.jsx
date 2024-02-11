@@ -41,7 +41,9 @@ function HiddenMenu() {
         </div>
         <div className="menu__about">
           <ul className="menu__about-list">
-            <li>О компании</li>
+            <Link to="/about-us">
+              <li>О компании</li>
+            </Link>
             <li>
               <Link to="/news">Новости</Link>
             </li>
