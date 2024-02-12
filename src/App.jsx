@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Management from "./pages/Management";
 import Service from "./pages/Service";
 import AboutUs from "./pages/AboutUs";
+import WhereBuy from "./pages/WhereBuy";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/management" element={<Management />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/where-buy" element={<WhereBuy />} />
       </Routes>
       <Footer />
     </>

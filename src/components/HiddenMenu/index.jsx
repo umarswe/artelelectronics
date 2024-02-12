@@ -47,9 +47,13 @@ function HiddenMenu() {
             <li>
               <Link to="/news">Новости</Link>
             </li>
-            <li>Где купить</li>
+            <Link to="/where-buy">
+              <li>Где купить</li>
+            </Link>
             <li>Производство</li>
-            <li>Скачать каталог</li>
+            <Link to="/catalog">
+              <li>Скачать каталог</li>
+            </Link>
             <li>Скачать инструкцию</li>
             <li>
               <Link to="/contact">Наши контакты</Link>
