@@ -6,6 +6,35 @@
   padding: 0 290px;
 }
 
+/******Animation*****/
+
+.partners__description span {
+  color: rgba(0, 0, 0, 0.2);
+  background-clip: text;
+  background-image: linear-gradient(90deg, #000000, #000000);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: scroll__reveal linear forwards;
+  animation-timeline: view();
+}
+
+.partners__description .partners__description-heading span {
+  animation-range-start: cover 10vh;
+  animation-range-end: cover 70vh;
+}
+
+.partners__description .partners__description-text span {
+  animation-range-start: cover 42vh;
+  animation-range-end: cover 90vh;
+}
+
+@keyframes scroll__reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
+/******Animation*****/
+
 .partners__description-heading {
   color: #0f1722;
   opacity: 0.5;
