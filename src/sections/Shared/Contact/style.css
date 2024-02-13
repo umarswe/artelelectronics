@@ -1,0 +1,43 @@
+.shop__contact {
+  width: 100%;
+  background: #006c41;
+  padding: 46px 120px;
+  margin-top: 145px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop__contact-title {
+  color: #fff;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px; /* 111.364% */
+}
+
+.shop__contact-buttons_white {
+  color: #006c41;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.667px; /* 192.593% */
+  border-radius: 37px;
+  background: #fff;
+  border: none;
+  padding: 20px 32px;
+  margin-right: 40px;
+}
+
+.shop__contact-buttons_green {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.667px; /* 192.593% */
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 20px 32px;
+  border-radius: 37px;
+}

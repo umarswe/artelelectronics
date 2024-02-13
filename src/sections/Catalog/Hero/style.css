@@ -1,0 +1,47 @@
+.catalog__hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../assets/images/Catalog//catalog-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.catalog__hero-wrapper {
+  position: absolute;
+  top: 300px;
+  left: 120px;
+}
+
+.catalog__wrapper-title {
+  color: #fff;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 64.8px */
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.catalog__wrapper-description {
+  color: #dfdfdf;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 26.4px */
+}
+
+.catalog__scroll-bottom {
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+}
+
+.catalog__scroll-icon_bottom {
+  padding: 28px;
+  border-radius: 100%;
+  background-color: #006c41b1;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
