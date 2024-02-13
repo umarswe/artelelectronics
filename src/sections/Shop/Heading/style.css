@@ -1,0 +1,63 @@
+.shop {
+  padding: 120px 120px 68px 120px;
+}
+
+.shop__heading {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60.5px; /* 100.833% */
+  margin-bottom: 31px;
+  background: var(
+    --Gradient-Artel-Official_1,
+    linear-gradient(104deg, #006c41 6.1%, #057d45 48.75%, #14a167 93.11%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shop__image-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.shop__image-wrapper {
+  width: 33.3333%;
+}
+
+.shop__image-wrapper-box {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.shop__image-wrapper-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.shop__image-wrapper-box img:hover {
+  transform: scale(1.1);
+}
+
+.shop__image-wrapper-box_title {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+
+  color: #fff;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.9px; /* 118.846% */
+  text-transform: uppercase;
+}

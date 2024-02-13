@@ -1,0 +1,31 @@
+.shop__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.shop__pagination-list {
+  display: flex;
+  gap: 18px;
+}
+
+.shop__pagination-list li {
+  list-style: none;
+}
+
+.shop__pagination-list li button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  background: transparent;
+
+  color: #878787;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shop__pagination-right {
+  transform: rotate(180deg);
+}

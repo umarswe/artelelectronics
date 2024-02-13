@@ -1,0 +1,53 @@
+.brands__box {
+  gap: 65px;
+  border-bottom: 1px solid #006c41;
+}
+/* ////////// */
+
+.filter__products-container:not(:first-child):not(:last-child) {
+  border-bottom: 1px solid #006c41;
+  margin-top: 22px;
+}
+
+.filter__products-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0;
+}
+
+.filter__products-title {
+  color: #006c41;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.filter__products-icon {
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+
+.filter__products-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.filter__products-box_title,
+.filter__products-box_result {
+  color: #4f5359;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.filter__colors-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
