@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useRef, useState } from "react";
 import "./style.css";
-import Arrow from "../../assets/images/arrow-white.svg";
+import Arrow from "../../assets/images/Shared/arrow-white.svg";
 
 function FormInputSelectModal({ label, options, onSelect, updatePhoneNumber }) {
   const [selectedOption, setSelectedOption] = useState(options[0]);

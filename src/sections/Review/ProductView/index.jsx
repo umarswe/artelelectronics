@@ -1,6 +1,6 @@
 import "./style.css";
-import downloadSVG from "../../../assets/images/download.svg";
-import productViewImage from "../../../assets/images/Product-view-image.png";
+import downloadSVG from "../../../assets/images/Shared/download.svg";
+import productViewImage from "../../../assets/images/Review/Product-view-image.png";
 
 function ProductView() {
   return (

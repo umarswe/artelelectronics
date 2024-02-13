@@ -1,4 +1,4 @@
-import Search from "../../../assets/images/Search.svg";
+import Search from "../../../assets/images/Shared/Search.svg";
 import "./style.css";
 
 function CatalogLinks() {

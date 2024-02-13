@@ -1,10 +1,10 @@
-import Artel from "../assets/images/Logo_Artel.svg";
-import Samsung from "../assets/images/Logo_Samsung.svg";
-import Avalon from "../assets/images/Logo_Avalon.svg";
-import Royal from "../assets/images/Logo_Royal.svg";
-import Viessmann from "../assets/images/Logo_Viessmann.svg";
-import Shivaki from "../assets/images/Logo_Shivaki.svg";
-import Vesta from "../assets/images/Logo_Vesta.svg";
+import Artel from "../assets/images/Catalog/Logo_Artel.svg";
+import Samsung from "../assets/images/Catalog/Logo_Samsung.svg";
+import Avalon from "../assets/images/Catalog/Logo_Avalon.svg";
+import Royal from "../assets/images/Catalog/Logo_Royal.svg";
+import Viessmann from "../assets/images/Catalog/Logo_Viessmann.svg";
+import Shivaki from "../assets/images/Catalog/Logo_Shivaki.svg";
+import Vesta from "../assets/images/Catalog/Logo_Vesta.svg";
 
 export const brands = [
   {

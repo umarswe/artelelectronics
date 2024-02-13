@@ -1,11 +1,11 @@
 import "./style.css";
-import Manager from "../../../assets/images/manager.png";
-import Email from "../../../assets/images/email.svg";
-import Line from "../../../assets/images/Line.png";
-import Line2 from "../../../assets/images/line-2.png";
-import Manager1 from "../../../assets/images/manager-1.png";
-import Manager2 from "../../../assets/images/manager-2.png";
-import Manager3 from "../../../assets/images/manager-3.png";
+import Manager from "../../../assets/images/Management/manager.png";
+import Email from "../../../assets/images/Management/email.svg";
+import Line from "../../../assets/images/Management/Line.png";
+import Line2 from "../../../assets/images/Management/line-2.png";
+import Manager1 from "../../../assets/images/Management/manager-1.png";
+import Manager2 from "../../../assets/images/Management/manager-2.png";
+import Manager3 from "../../../assets/images/Management/manager-3.png";
 
 const MANAGERS = [
   {

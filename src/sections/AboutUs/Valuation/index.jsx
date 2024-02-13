@@ -1,7 +1,7 @@
 import "./style.css";
-import Valuation1 from "../../../assets/images/valuation-1.png";
-import Valuation2 from "../../../assets/images/valuation-2.png";
-import Valuation3 from "../../../assets/images/valuation-3.png";
+import Valuation1 from "../../../assets/images/AboutUS/valuation-1.png";
+import Valuation2 from "../../../assets/images/AboutUS/valuation-2.png";
+import Valuation3 from "../../../assets/images/AboutUS/valuation-3.png";
 
 const valuations = [
   {

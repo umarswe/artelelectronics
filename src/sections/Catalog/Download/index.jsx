@@ -1,7 +1,7 @@
 import "./style.css";
-import DownloadFile from "../../../assets/images/donwload-file.svg";
-import DownloadIcon from "../../../assets/images/download-icon.svg";
-import Arrow from "../../../assets/images/Arrow.svg";
+import DownloadFile from "../../../assets/images/Catalog/donwload-file.svg";
+import DownloadIcon from "../../../assets/images/Catalog/download-icon.svg";
+import Arrow from "../../../assets/images/Shared/Arrow.svg";
 
 const DOWNLOAD__INFO = [
   {

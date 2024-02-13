@@ -1,5 +1,5 @@
 import "./style.css";
-import Phone from "../../../assets/images/Phone.svg";
+import Phone from "../../../assets/images/Shared/Phone.svg";
 
 const SUPPORT__DATA = [
   {

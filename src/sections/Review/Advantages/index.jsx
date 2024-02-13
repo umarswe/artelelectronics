@@ -1,10 +1,10 @@
 import "./style.css";
-import Arrow from "../../../assets/images/Arrow.svg";
-import PlusIcon from "../../../assets/images/plus-icon.svg";
-import AdvantagesImage1 from "../../../assets/images/benefits-image-1.png";
-import AdvantagesImage2 from "../../../assets/images/benefits-image-2.png";
-import AdvantagesImage3 from "../../../assets/images/benefits-image-3.png";
-import AdvantagesImage4 from "../../../assets/images/benefits-image-4.png";
+import Arrow from "../../../assets/images/Shared/Arrow.svg";
+import PlusIcon from "../../../assets/images/Shared/plus-icon.svg";
+import AdvantagesImage1 from "../../../assets/images/Review/benefits-image-1.png";
+import AdvantagesImage2 from "../../../assets/images/Review/benefits-image-2.png";
+import AdvantagesImage3 from "../../../assets/images/Review/benefits-image-3.png";
+import AdvantagesImage4 from "../../../assets/images/Review/benefits-image-4.png";
 import { useState } from "react";
 import Modal from "../../../components/Modal";
 

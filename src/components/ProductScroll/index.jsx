@@ -2,12 +2,12 @@ import { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import deg360 from "../../assets/images/image-360deg.mp4";
+import deg360 from "../../assets/images/Shared/image-360deg.mp4";
 // import deg360Thumb from "../../assets/images/360deg.svg";
 // import middle from "../../assets/images/scrool-image-middle.png";
 // import left from "../../assets/images/scroll-image-left.png";
 // import right from "../../assets/images/scroll-image-right.png";
-import reviewImage from "../../assets/images/review_image.png";
+import reviewImage from "../../assets/images/Review/review_image.png";
 
 // Import Swiper styles
 import "swiper/css";

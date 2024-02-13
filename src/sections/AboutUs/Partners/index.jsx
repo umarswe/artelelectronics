@@ -1,11 +1,11 @@
 import "./style.css";
-import AboutUs from "../../../assets/images/aboutUs.png";
-import Artel_Logo from "../../../assets/images/Artel_Logo.svg";
-import Shivaki_Logo from "../../../assets/images/Shivaki_Logo.svg";
-import Avalon_Logo from "../../../assets/images/Avalon_Logo.svg";
-import Royal_Logo from "../../../assets/images/Royal_Logo.svg";
-import Vesta_Logo from "../../../assets/images/Vesta_Logo.svg";
-import Samsung_Logo from "../../../assets/images/Samsung_Logo.svg";
+import AboutUs from "../../../assets/images/AboutUS/aboutUs.png";
+import Artel_Logo from "../../../assets/images/AboutUS/Artel_Logo.svg";
+import Shivaki_Logo from "../../../assets/images/AboutUS/Shivaki_Logo.svg";
+import Avalon_Logo from "../../../assets/images/AboutUS/Avalon_Logo.svg";
+import Royal_Logo from "../../../assets/images/AboutUS/Royal_Logo.svg";
+import Vesta_Logo from "../../../assets/images/AboutUS/Vesta_Logo.svg";
+import Samsung_Logo from "../../../assets/images/AboutUS/Samsung_Logo.svg";
 
 const PARTNERS = [
   {

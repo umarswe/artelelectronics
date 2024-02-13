@@ -1,8 +1,8 @@
-import Logo from "../../assets/images/Artel-logo.svg";
-import Language from "../../assets/images/Language.svg";
-import Phone from "../../assets/images/Phone.svg";
-import Menu from "../../assets/images/Menu.svg";
-import Close from "../../assets/images/Close.svg";
+import Logo from "../../assets/images/Shared/Artel-logo.svg";
+import Language from "../../assets/images/Shared/Language.svg";
+import Phone from "../../assets/images/Shared/Phone.svg";
+import Menu from "../../assets/images/Shared/Menu.svg";
+import Close from "../../assets/images/Shared/Close.svg";
 import HiddenMenu from "../HiddenMenu";
 import "./style.css";
 import { useEffect, useRef, useState } from "react";

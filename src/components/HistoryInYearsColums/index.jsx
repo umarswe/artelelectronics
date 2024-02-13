@@ -1,6 +1,6 @@
 import "./style.css";
-import Year2014_2 from "../../assets/images/Year2014-2.png";
-import Year2014_3 from "../../assets/images/Year2014-3.png";
+import Year2014_2 from "../../assets/images/AboutUS/Year2014-2.png";
+import Year2014_3 from "../../assets/images/AboutUS/Year2014-3.png";
 
 function HistoryInYearsColumns() {
   return (

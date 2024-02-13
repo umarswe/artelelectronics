@@ -1,7 +1,7 @@
 import "./style.css";
 // import ModalImage from "../../assets/images/benefits-image-2.png";
-import Close from "../../assets/images/Close.svg";
-import leftArrow from "../../assets/images/Arrow.svg";
+import Close from "../../assets/images/Shared/Close.svg";
+import leftArrow from "../../assets/images/Shared/Arrow.svg";
 import { useRef } from "react";
 import Stories from "../Stories";
 

@@ -1,7 +1,7 @@
-import white from "../assets/images/white.svg";
-import black from "../assets/images/black.svg";
-import gray from "../assets/images/gray.svg";
-import silver from "../assets/images/silver.svg";
+import white from "../assets/images/Shared/white.svg";
+import black from "../assets/images/Shared/black.svg";
+import gray from "../assets/images/Shared/gray.svg";
+import silver from "../assets/images/Shared/silver.svg";
 
 export const colors = [
   {

@@ -1,11 +1,11 @@
 import Maps from "../../../components/Map";
 import "./style.css";
-import branchesImage1 from "../../../assets/images/branches-image-1.png";
-import branchesImage2 from "../../../assets/images/branches-image-2.png";
-import branchesImage3 from "../../../assets/images/branches-image-3.png";
-import branchesImage4 from "../../../assets/images/branches-image-4.png";
-import branchesImage5 from "../../../assets/images/branches-image-5.png";
-import location from "../../../assets/images/location.svg";
+import branchesImage1 from "../../../assets/images/Review/branches-image-1.png";
+import branchesImage2 from "../../../assets/images/Review/branches-image-2.png";
+import branchesImage3 from "../../../assets/images/Review/branches-image-3.png";
+import branchesImage4 from "../../../assets/images/Review/branches-image-4.png";
+import branchesImage5 from "../../../assets/images/Review/branches-image-5.png";
+import location from "../../../assets/images/Shared/location.svg";
 
 function Branches() {
   const branchesName = [

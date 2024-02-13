@@ -1,6 +1,6 @@
-import Recommended1 from "../../../assets/images/Recommended-1.png";
-import Recommended2 from "../../../assets/images/Recommended-2.png";
-import Recommended3 from "../../../assets/images/Recommended-3.png";
+import Recommended1 from "../../../assets/images/Home/Recommended-1.png";
+import Recommended2 from "../../../assets/images/Home/Recommended-2.png";
+import Recommended3 from "../../../assets/images/Home/Recommended-3.png";
 import "./style.css";
 
 function RecommendedProduct() {

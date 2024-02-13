@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./style.css";
-import Characteristics from "../../../assets/images/characteristics-product.svg";
+import Characteristics from "../../../assets/images/Shared/characteristics-product.svg";
 import ProductScroll from "../../../components/ProductScroll";
 import { v4 as uuid } from "uuid";
 import { useState } from "react";

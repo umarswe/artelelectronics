@@ -1,6 +1,6 @@
 import "./style.css";
-import Tick from "../../assets/images/tick.png";
-import Close from "../../assets/images/Close.svg";
+import Tick from "../../assets/images/Shared/tick.png";
+import Close from "../../assets/images/Shared/Close.svg";
 
 // eslint-disable-next-line react/prop-types
 function FormSubmitModal({ formSubmit }) {

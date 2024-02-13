@@ -1,8 +1,8 @@
-import ProductInformation from "../../../assets/images/product-info.svg";
-import Edition from "../../../assets/images/edition.svg";
-import Features from "../../../assets/images/features.svg";
-import Refregerator from "../../../assets/images/refregerator.png";
-import Play from "../../../assets/images/Play.svg";
+import ProductInformation from "../../../assets/images/Home/product-info.svg";
+import Edition from "../../../assets/images/Home/edition.svg";
+import Features from "../../../assets/images/Home/features.svg";
+import Refregerator from "../../../assets/images/Home/refregerator.png";
+import Play from "../../../assets/images/Home/Play.svg";
 
 import "./style.css";
 

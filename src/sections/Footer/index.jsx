@@ -1,9 +1,9 @@
-import Logo from "../../assets/images/Artel-logo.svg";
-import facebook from "../../assets/images/facebook.svg";
-import instagram from "../../assets/images/instagram.svg";
-import twitter from "../../assets/images/twitter.svg";
-import Phone from "../../assets/images/Phone-small.svg";
-import mail from "../../assets/images/mail.svg";
+import Logo from "../../assets/images/Shared/Artel-logo.svg";
+import facebook from "../../assets/images/Shared/facebook.svg";
+import instagram from "../../assets/images/Shared/instagram.svg";
+import twitter from "../../assets/images/Shared/twitter.svg";
+import Phone from "../../assets/images/Shared/Phone-small.svg";
+import mail from "../../assets/images/Shared/mail.svg";
 
 import "./style.css";
 

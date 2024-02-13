@@ -1,7 +1,7 @@
-import AirCon from "../../../assets/images/air-conditioner.png";
-import WashingMachine from "../../../assets/images/washing-machine.png";
-import Television from "../../../assets/images/televison.png";
-import Stove from "../../../assets/images/stove.png";
+import AirCon from "../../../assets/images/Home/air-conditioner.png";
+import WashingMachine from "../../../assets/images/Home/washing-machine.png";
+import Television from "../../../assets/images/Home/televison.png";
+import Stove from "../../../assets/images/Home/stove.png";
 
 import "./style.css";
 

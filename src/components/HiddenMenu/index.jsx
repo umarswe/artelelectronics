@@ -1,7 +1,7 @@
-import News from "../../assets/images/News.png";
-import LivingRoom from "../../assets/images/LivingRoom.png";
-import Cleaning from "../../assets/images/Cleaning.png";
-import Kitchen from "../../assets/images/Kitchen.png";
+import News from "../../assets/images/News/News.png";
+import LivingRoom from "../../assets/images/Menu/LivingRoom.png";
+import Cleaning from "../../assets/images/Menu/Cleaning.png";
+import Kitchen from "../../assets/images/Menu/Kitchen.png";
 
 import "./style.scss";
 import { Link } from "react-router-dom";

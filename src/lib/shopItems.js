@@ -1,4 +1,4 @@
-import ProductsImage from "../assets/images/product-image.png";
+import ProductsImage from "../assets/images/Review/product-image.png";
 
 export const shopItems = [
   {

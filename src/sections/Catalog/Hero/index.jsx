@@ -1,5 +1,5 @@
 import "./style.css";
-import Arrow from "../../../assets/images/Arrow.svg";
+import Arrow from "../../../assets/images/Shared/Arrow.svg";
 
 function Hero() {
   const handleScroll = () => {

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../style.css";
-import Close from "../../../assets/images/chevron-left.svg";
+import Close from "../../../assets/images/Shared/chevron-left.svg";
 
 function Colors(props) {
   const colors = props.colors;

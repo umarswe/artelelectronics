@@ -1,6 +1,6 @@
 import "./style.css";
-import serviceHero from "../../../assets/images/service-hero.png";
-import ArrowBottom from "../../../assets/images/Arrow-bottom.svg";
+import serviceHero from "../../../assets/images/Service/service-hero.png";
+import ArrowBottom from "../../../assets/images/Shared/Arrow-bottom.svg";
 
 function Hero() {
   return (

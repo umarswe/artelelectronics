@@ -1,6 +1,6 @@
-import Shield from "../../../assets/images/sheild.png";
-import Tool from "../../../assets/images/tool.png";
-import Megaphone from "../../../assets/images/megaphone.png";
+import Shield from "../../../assets/images/Home/sheild.png";
+import Tool from "../../../assets/images/Home/tool.png";
+import Megaphone from "../../../assets/images/Home/megaphone.png";
 
 import "./style.scss";
 

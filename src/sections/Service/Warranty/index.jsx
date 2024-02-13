@@ -1,8 +1,8 @@
 import "./style.css";
 
-import Warranty1 from "../../../assets/images/Warranty-1.png";
-import Warranty2 from "../../../assets/images/Warranty-2.png";
-import Warranty3 from "../../../assets/images/Warranty-3.png";
+import Warranty1 from "../../../assets/images/Service/Warranty-1.png";
+import Warranty2 from "../../../assets/images/Service/Warranty-2.png";
+import Warranty3 from "../../../assets/images/Service/Warranty-3.png";
 
 const warrantyInfo = [
   {

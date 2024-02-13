@@ -1,6 +1,6 @@
 import ImageCarousel from "../sections/Shared/ImageCarousel";
 import New from "../sections/News/New";
-import Hero from "../assets/images/hero-bg.png";
+import Hero from "../assets/images/News/hero-bg.png";
 
 const newsData = [
   {

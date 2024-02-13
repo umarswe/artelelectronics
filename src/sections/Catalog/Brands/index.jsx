@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import "./style.css";
-import Artel from "../../../assets/images/Logo_Artel.svg";
-import Shivaki from "../../../assets/images/Logo_Shivaki.svg";
-import Royal from "../../../assets/images/Logo_Royal.svg";
-import Avalon from "../../../assets/images/Logo_Avalon.svg";
-import Vesta from "../../../assets/images/Logo_Vesta.svg";
-import Samsung from "../../../assets/images/Logo_Samsung.svg";
+import Artel from "../../../assets/images/Catalog/Logo_Artel.svg";
+import Shivaki from "../../../assets/images/Catalog/Logo_Shivaki.svg";
+import Royal from "../../../assets/images/Catalog/Logo_Royal.svg";
+import Avalon from "../../../assets/images/Catalog/Logo_Avalon.svg";
+import Vesta from "../../../assets/images/Catalog/Logo_Vesta.svg";
+import Samsung from "../../../assets/images/Catalog/Logo_Samsung.svg";
 import { useRef, useState } from "react";
 
 const brands = [Artel, Shivaki, Royal, Avalon, Vesta, Samsung];

@@ -1,5 +1,5 @@
 import "./style.css";
-import Next from "../../../assets/images/chevron-left.svg";
+import Next from "../../../assets/images/Shared/chevron-left.svg";
 
 function Pagination() {
   return (

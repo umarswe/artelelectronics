@@ -1,6 +1,6 @@
-import Gaz from "../../../assets/images/shop-gaz.png";
-import TV from "../../../assets/images/shop-tv.png";
-import Washing from "../../../assets/images/shop-washing.png";
+import Gaz from "../../../assets/images/Shop/shop-gaz.png";
+import TV from "../../../assets/images/Shop/shop-tv.png";
+import Washing from "../../../assets/images/Shop/shop-washing.png";
 
 import "./style.css";
 

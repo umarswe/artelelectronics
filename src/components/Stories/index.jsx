@@ -2,10 +2,10 @@ import { useRef } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import stories1 from "../../assets/images/benefits-image-1.png";
-import stories2 from "../../assets/images/benefits-image-2.png";
-import stories3 from "../../assets/images/benefits-image-3.png";
-import stories4 from "../../assets/images/benefits-image-4.png";
+import stories1 from "../../assets/images/Review/benefits-image-1.png";
+import stories2 from "../../assets/images/Review/benefits-image-2.png";
+import stories3 from "../../assets/images/Review/benefits-image-3.png";
+import stories4 from "../../assets/images/Review/benefits-image-4.png";
 
 const storiesImage = [
   {

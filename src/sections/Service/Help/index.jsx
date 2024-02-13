@@ -1,9 +1,9 @@
 import "./style.css";
-import Help1 from "../../../assets/images/help-1.png";
-import Help2 from "../../../assets/images/help-2.png";
-import Help3 from "../../../assets/images/help-3.png";
-import Help4 from "../../../assets/images/help-4.png";
-import Help5 from "../../../assets/images/help-5.png";
+import Help1 from "../../../assets/images/Service/help-1.png";
+import Help2 from "../../../assets/images/Service/help-2.png";
+import Help3 from "../../../assets/images/Service/help-3.png";
+import Help4 from "../../../assets/images/Service/help-4.png";
+import Help5 from "../../../assets/images/Service/help-5.png";
 
 const HELP__DATA = [
   {

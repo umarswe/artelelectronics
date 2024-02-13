@@ -1,5 +1,5 @@
 import "./style.css";
-import StrategyImage from "../../../assets/images/strategy-image.png";
+import StrategyImage from "../../../assets/images/AboutUS/strategy-image.png";
 
 const STRATEGY__INFO = [
   {
