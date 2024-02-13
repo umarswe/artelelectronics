@@ -19,7 +19,7 @@ function Hero() {
         </p>
       </div>
       <div className="catalog__scroll-bottom" onClick={handleScroll}>
-        <img className="catalog__scroll-icon_bottom" src={Arrow} alt="" />
+        <img className="catalog__scroll-icon_bottom" src={Arrow} alt="Arrow" />
       </div>
     </div>
   );

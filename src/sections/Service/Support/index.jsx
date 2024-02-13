@@ -26,7 +26,7 @@ function Support() {
       <div className="support__container">
         {SUPPORT__DATA.map((item, index) => (
           <div className="support__wrapper" key={index}>
-            <img className="support__wrapper-image" src={Phone} alt="" />
+            <img className="support__wrapper-image" src={Phone} alt="support" />
             <p className="support__wrapper-service">Единая служба поддержки</p>
             <p className="support__wrapper-phone">+998 (78) 148-88-88</p>
           </div>

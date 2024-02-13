@@ -173,7 +173,7 @@ function ReviewImage() {
           <div className="product__characteristics-container">
             {MAIN__CHARACTER.map((item, index) => (
               <div className="product__characteristics-wrapper" key={index}>
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="characteristics" />
                 <span className="product__wrapper-title">{item.title}</span>
               </div>
             ))}

@@ -7,7 +7,7 @@ function Pagination() {
       <ul className="shop__pagination-list">
         <li>
           <button>
-            <img className="shop__pagination-left" src={Next} alt="" />
+            <img className="shop__pagination-left" src={Next} alt="Next" />
           </button>
         </li>
         <li>
@@ -21,7 +21,7 @@ function Pagination() {
         </li>
         <li>
           <button>
-            <img className="shop__pagination-right" src={Next} alt="" />
+            <img className="shop__pagination-right" src={Next} alt="Next" />
           </button>
         </li>
       </ul>

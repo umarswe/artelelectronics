@@ -38,7 +38,11 @@ const ImageCarousel = ({ asdfhlakjsdfhkjlahsdljkfhalskdjfh }) => {
       >
         {asdfhlakjsdfhkjlahsdljkfhalskdjfh.map((item, index) => (
           <SwiperSlide key={index}>
-            <img className="background__image" src={item.backgroundImage} />
+            <img
+              className="background__image"
+              src={item.backgroundImage}
+              alt="background"
+            />
 
             <div className="item__container">
               {item.svgContent && (

@@ -55,7 +55,7 @@ function Hero() {
         <div className="manager__wrapper">
           <div className="manager__image-container">
             <div className="manager__image-wrapper">
-              <img src={Manager} alt="" />
+              <img src={Manager} alt="Manager photo" />
             </div>
           </div>
 
@@ -74,13 +74,13 @@ function Hero() {
             </p>
 
             <div className="manager__email">
-              <img src={Email} alt="" />
+              <img src={Email} alt="Email" />
               <span>shohruh.ruzikulov@artelelectronics.com</span>
             </div>
           </div>
 
           <div className="line">
-            <img src={Line} alt="" />
+            <img src={Line} alt="Line" />
           </div>
         </div>
       </div>
@@ -92,14 +92,14 @@ function Hero() {
           {MANAGERS.map((item, index) => (
             <div className="managers__box" key={index}>
               <div className="managers__image">
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="managers photo" />
               </div>
 
               <h6 className="managers__name">{item.name}</h6>
               <p className="managers__profession">{item.profession}</p>
 
               <div className="managers__email">
-                <img className="managers__email-icon" src={Email} alt="" />
+                <img className="managers__email-icon" src={Email} alt="Email" />
                 <span className="managers__email-address">{item.email}</span>
               </div>
             </div>
@@ -107,7 +107,7 @@ function Hero() {
         </div>
 
         <div className="managers__line-wrapper">
-          <img src={Line2} alt="" />
+          <img src={Line2} alt="second line" />
         </div>
       </div>
 
@@ -118,14 +118,14 @@ function Hero() {
           {MANAGERS.map((item, index) => (
             <div className="managers__box" key={index}>
               <div className="managers__image">
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="managers photo" />
               </div>
 
               <h6 className="managers__name">{item.name}</h6>
               <p className="managers__profession">{item.profession}</p>
 
               <div className="managers__email">
-                <img className="managers__email-icon" src={Email} alt="" />
+                <img className="managers__email-icon" src={Email} alt="Email" />
                 <span className="managers__email-address">{item.email}</span>
               </div>
             </div>

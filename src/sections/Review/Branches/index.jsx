@@ -45,13 +45,13 @@ function Branches() {
     <div className="branches">
       <div className="branches__container">
         <div className="branches__container-search">
-          <img src={location} alt="" />
+          <img src={location} alt="Location" />
           <p>Выбрать страну</p>
         </div>
 
         {branchesName.map((item, index) => (
           <div className="branches__box" key={index}>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="branches" />
 
             <div className="branches__info">
               <h6 className="branches__info-title">{item.title}</h6>

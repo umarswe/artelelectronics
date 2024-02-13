@@ -24,7 +24,7 @@ function ShopItems(props) {
               className="shop__item-box_image"
               onClick={handleOpenReviewModal}
             >
-              <img src={item.image} alt="" />
+              <img src={item.image} alt="image" />
             </div>
             <p className="shop__item-box_description">{item.description}</p>
             <button className="shop__item-box_button">{item.buttonText}</button>

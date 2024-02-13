@@ -16,11 +16,11 @@ function Hero() {
       </div>
 
       <div className="service__hero-image">
-        <img src={serviceHero} alt="" />
+        <img src={serviceHero} alt="service" />
       </div>
 
       <div className="service__hero-arrow">
-        <img src={ArrowBottom} alt="" />
+        <img src={ArrowBottom} alt="Arrow" />
       </div>
     </div>
   );

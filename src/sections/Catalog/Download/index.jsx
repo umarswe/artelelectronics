@@ -64,7 +64,7 @@ function Download() {
       {DOWNLOAD__INFO.map((item, index) => (
         <div className="download__box" key={index}>
           <div className="download__box-name">
-            <img src={item.fileIcon} alt="" />
+            <img src={item.fileIcon} alt="file icon" />
             <span className="download__box-name-title">{item.fileName}</span>
           </div>
           <div className="download__box-action">
@@ -81,7 +81,7 @@ function Download() {
               <img
                 className="download__button-icon"
                 src={DownloadIcon}
-                alt=""
+                alt="download icon"
               />
             </a>
           </div>
@@ -89,7 +89,7 @@ function Download() {
       ))}
 
       <div className="catalog__scroll-top" onClick={handleScroll}>
-        <img className="catalog__scroll-icon_top" src={Arrow} alt="" />
+        <img className="catalog__scroll-icon_top" src={Arrow} alt="Arrow" />
       </div>
     </div>
   );

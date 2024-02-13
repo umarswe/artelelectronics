@@ -50,7 +50,7 @@ function Footer() {
             <img src={Phone} alt="Phone" /> <span>0800-120-55</span>
           </div>
           <div className="footer__contact-links_wrapper">
-            <img src={mail} alt="Phone" /> <span>info@artel.uz</span>
+            <img src={mail} alt="Email" /> <span>info@artel.uz</span>
           </div>
         </div>
       </div>

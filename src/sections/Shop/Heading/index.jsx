@@ -14,7 +14,7 @@ function Heading() {
       <div className="shop__image-container">
         <div className="shop__image-wrapper">
           <div className="shop__image-wrapper-box">
-            <img src={Gaz} alt="" />
+            <img src={Gaz} alt="Gaz" />
             <h3 className="shop__image-wrapper-box_title">
               Для <br /> кухни
             </h3>
@@ -22,7 +22,7 @@ function Heading() {
         </div>
         <div className="shop__image-wrapper">
           <div className="shop__image-wrapper-box">
-            <img src={TV} alt="" />
+            <img src={TV} alt="TV" />
             <h3 className="shop__image-wrapper-box_title">
               Для <br /> гостиной
             </h3>
@@ -30,7 +30,7 @@ function Heading() {
         </div>
         <div className="shop__image-wrapper">
           <div className="shop__image-wrapper-box">
-            <img src={Washing} alt="" />
+            <img src={Washing} alt="Washing Machine" />
             <h3 className="shop__image-wrapper-box_title">
               Для стирки <br />и уборки
             </h3>

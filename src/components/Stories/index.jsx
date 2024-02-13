@@ -63,7 +63,7 @@ export default function App() {
 
         {storiesImage.map((item, index) => (
           <SwiperSlide key={index}>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="Image" />
             <p className="modal__image-text">
               Холодильник Artel обеспечивается равномерное распространение
               холодной температуры от задней стенки к дверце холодильника, чтобы

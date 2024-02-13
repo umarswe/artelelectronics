@@ -65,13 +65,13 @@ export default function App() {
           </video>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="image-main" src={reviewImage} />
+          <img className="image-main" src={reviewImage} alt="Image Review" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="image-main" src={reviewImage} />
+          <img className="image-main" src={reviewImage} alt="Image Review" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="image-main" src={reviewImage} />
+          <img className="image-main" src={reviewImage} alt="Image Review" />
         </SwiperSlide>
       </Swiper>
     </div>

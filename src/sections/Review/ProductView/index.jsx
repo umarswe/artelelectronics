@@ -11,13 +11,13 @@ function ProductView() {
           WF85l2311E
         </h2>
         <button href="#" className="product__view-action">
-          <img src={downloadSVG} alt="" />
+          <img src={downloadSVG} alt="Download Icon" />
           <span>Скачать инструкцию</span>
         </button>
       </div>
 
       <div className="product__view-image">
-        <img src={productViewImage} alt="" />
+        <img src={productViewImage} alt="Product view" />
       </div>
     </div>
   );

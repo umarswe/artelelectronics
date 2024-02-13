@@ -6,7 +6,7 @@ function HistoryInYearsColumns() {
   return (
     <div className="HistoryInYearsColumns">
       <div className="HistoryInYearsColumns-right">
-        <img src={Year2014_3} alt="" />
+        <img src={Year2014_3} alt="YearImage" />
         <p>
           Сервисные центры Artel приступают к работе во всех регионах
           Узбекистана. Компания старается делать все, чтобы потребителям было
@@ -16,7 +16,7 @@ function HistoryInYearsColumns() {
         </p>
       </div>
       <div className="HistoryInYearsColumns-left">
-        <img src={Year2014_2} alt="" />
+        <img src={Year2014_2} alt="YearImage" />
         <p>
           Запускается производство SMT - плат, а также под брендом Vesta
           Electonics выпускаются Led-лампы и освитительне приборы.

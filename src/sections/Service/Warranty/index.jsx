@@ -32,7 +32,7 @@ function Warranty() {
           key={index}
         >
           <div className="warranty__box-image">
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="warranty" />
           </div>
 
           <div className="warranty__info">

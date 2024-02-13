@@ -37,7 +37,7 @@ function Help() {
         {HELP__DATA.map((item, index) => (
           <div className="help__box" key={index}>
             <div className="help__box-image">
-              <img src={item.image} alt="" />
+              <img src={item.image} alt="Help" />
               <p className="help__box-description">{item.description}</p>
             </div>
           </div>

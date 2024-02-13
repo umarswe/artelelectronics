@@ -46,7 +46,7 @@ function Partners() {
       </section>
 
       <div className="partners__image">
-        <img src={AboutUs} alt="" />
+        <img src={AboutUs} alt="logo" />
       </div>
 
       <div className="partners__heading-wrapper">
@@ -64,13 +64,13 @@ function Partners() {
 
       <div className="partners__icons">
         <div className="partners__main">
-          <img src={Artel_Logo} alt="" />
+          <img src={Artel_Logo} alt="artel logo" />
         </div>
 
         <div className="partners__icons-wrapper">
           {PARTNERS.map((item, index) => (
             <div className="partners__icon" key={index}>
-              <img src={item.img} alt="" />
+              <img src={item.img} alt="image" />
             </div>
           ))}
         </div>

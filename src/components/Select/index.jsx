@@ -27,7 +27,7 @@ function FormInputSelectModal({ label, options, onSelect, updatePhoneNumber }) {
       <div className="select__input-wrapper">
         <input className="select__input" value={selectedOption} />
         <span className="select__input-icon" ref={openIconRef}>
-          <img src={Arrow} alt="" />
+          <img src={Arrow} alt="Arrow" />
         </span>
       </div>
 

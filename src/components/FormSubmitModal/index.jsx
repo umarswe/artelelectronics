@@ -13,10 +13,10 @@ function FormSubmitModal({ formSubmit }) {
     <div className="submit" ref={formSubmit}>
       <div className="submit__wrapper">
         <div className="submit__close-button" onClick={handleCloseModal}>
-          <img src={Close} alt="" />
+          <img src={Close} alt="Close" />
         </div>
         <div className="submit__completion">
-          <img className="submit__completion-icon" src={Tick} alt="" />
+          <img className="submit__completion-icon" src={Tick} alt="tick" />
           <h5 className="submit__completion-title">Заявка отправлена</h5>
           <p className="submit__completion-text">Мы скоро с вами свяжемся </p>
         </div>

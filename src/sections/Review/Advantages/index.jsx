@@ -35,8 +35,8 @@ function Advantages() {
         <h2 className="advantages__heading-title">Преимущества продукта</h2>
 
         <div className="advantages__heading-navigation">
-          <img src={Arrow} alt="" />
-          <img src={Arrow} alt="" />
+          <img src={Arrow} alt="Arrow" />
+          <img src={Arrow} alt="Arrow" />
         </div>
       </div>
 
@@ -46,7 +46,7 @@ function Advantages() {
             <img
               className="advantages__box-image"
               src={item.image}
-              alt=""
+              alt="Advantages"
               onClick={handleModal}
             />
 
@@ -54,7 +54,7 @@ function Advantages() {
               <h3 className="advantages__box-header">
                 Гипоаллергенная <br /> стирка
               </h3>
-              <img src={PlusIcon} alt="" />
+              <img src={PlusIcon} alt="Plus Icon" />
             </div>
           </div>
         ))}

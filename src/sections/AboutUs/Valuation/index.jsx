@@ -34,7 +34,7 @@ function Valuation() {
           key={index}
         >
           <div className="valuation__box">
-            <img src={valuation.image} alt="" />
+            <img src={valuation.image} alt="image" />
           </div>
           <div className="valuation__info">
             <div className="valuation__info-wrapper">

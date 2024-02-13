@@ -35,7 +35,7 @@ function Brands() {
             key={index}
             onClick={(e) => handleIndicator(index, e)}
           >
-            <img src={item} alt="" />
+            <img src={item} alt="image" />
           </div>
         ))}
       </div>

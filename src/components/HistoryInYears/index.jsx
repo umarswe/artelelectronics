@@ -23,7 +23,11 @@ function HistoryInYears({
         <p className="history__box-info-text">{text}</p>
       </div>
       <div className="history__box-photo_wrapper">
-        <img src={image} alt="" style={{ width: width, height: height }} />
+        <img
+          src={image}
+          alt="history"
+          style={{ width: width, height: height }}
+        />
       </div>
     </div>
   );

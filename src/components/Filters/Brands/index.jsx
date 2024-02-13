@@ -13,7 +13,11 @@ function Brands(props) {
 
       {brandsData.map((item, index) => (
         <div key={index} className="filter__products-box brands__box">
-          <img className="filter__product-box_image" src={item.brands} alt="" />
+          <img
+            className="filter__product-box_image"
+            src={item.brands}
+            alt="brands"
+          />
           <span className="filter__products-box_result">{item.result}</span>
         </div>
       ))}

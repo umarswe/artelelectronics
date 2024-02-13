@@ -17,7 +17,7 @@ function Colors(props) {
           <img
             className="filter__products-box_result"
             src={item.color}
-            alt=""
+            alt="color"
           />
           <h3 className="filter__products-box_title">{item.colorName}</h3>
         </div>

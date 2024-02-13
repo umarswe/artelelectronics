@@ -41,7 +41,7 @@ function Strategy() {
 
       <div className="strategy__info-wrapper">
         <div className="strategy__image-wrapper">
-          <img src={StrategyImage} alt="" />
+          <img src={StrategyImage} alt="image" />
         </div>
 
         <div className="strategy__info">

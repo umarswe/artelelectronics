@@ -16,13 +16,13 @@ function Modal() {
     <div className="modal" ref={modalRef}>
       <div className="modal__wrapper">
         <div className="left__arrow">
-          <img src={leftArrow} alt="" />
+          <img src={leftArrow} alt="Arrow" />
         </div>
         <div className="right__arrow">
-          <img src={leftArrow} alt="" />
+          <img src={leftArrow} alt="Arrow" />
         </div>
         <div className="modal__close" onClick={handleClose}>
-          <img src={Close} alt="" />
+          <img src={Close} alt="Close" />
         </div>
         <div className="modal__image-container">
           {/* <img className="modal__image" src={ModalImage} alt="" />

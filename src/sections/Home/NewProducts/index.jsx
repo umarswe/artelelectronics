@@ -27,7 +27,7 @@ function News() {
         </div>
         <div className="news__container-box">
           <div className="news__container-image">
-            <img src={WashingMachine} alt="AirCon" />
+            <img src={WashingMachine} alt="Washing Machine" />
           </div>
           <p className="news__container-description">
             Инверторный кондиционер <br /> Artel Baraka Inverter
@@ -41,7 +41,7 @@ function News() {
         </div>
         <div className="news__container-box">
           <div className="news__container-image">
-            <img src={Television} alt="AirCon" />
+            <img src={Television} alt="Television" />
           </div>
           <p className="news__container-description">
             Инверторный кондиционер <br /> Artel Baraka Inverter
@@ -55,7 +55,7 @@ function News() {
         </div>
         <div className="news__container-box">
           <div className="news__container-image">
-            <img src={Stove} alt="AirCon" />
+            <img src={Stove} alt="Stove" />
           </div>
           <p className="news__container-description">
             Инверторный кондиционер <br /> Artel Baraka Inverter
