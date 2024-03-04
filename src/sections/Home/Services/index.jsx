@@ -2,7 +2,7 @@ import Shield from "../../../assets/images/Home/sheild.png";
 import Tool from "../../../assets/images/Home/tool.png";
 import Megaphone from "../../../assets/images/Home/megaphone.png";
 
-import "./style.scss";
+import "./style.css";
 
 function Services() {
   return (
@@ -11,39 +11,36 @@ function Services() {
 
       <div className="services__container">
         <div className="services__container-box">
-          <img
-            className="services__container-box_image"
-            src={Shield}
-            alt="shield"
-          />
-          <h3 className="services__container-box_title">
-            Условия <br /> гарантии
-          </h3>
+          <div className="service__icon-wrapper">
+            <img className="services__icon-image" src={Shield} alt="shield" />
+          </div>
+
+          <h3 className="services__container-box_title">Сервис</h3>
           <p className="services__container-box_info">
             Получить информацию <br /> об условиях гарантии по <br /> продуктам
           </p>
         </div>
         <div className="services__container-box">
-          <img
-            className="services__container-box_image"
-            src={Megaphone}
-            alt="shield"
-          />
-          <h3 className="services__container-box_title">
-            Условия <br /> гарантии
-          </h3>
+          <div className="service__icon-wrapper">
+            <img
+              className="services__icon-image"
+              src={Megaphone}
+              alt="shield"
+            />
+          </div>
+
+          <h3 className="services__container-box_title">Гарантия</h3>
           <p className="services__container-box_info">
             Получить информацию <br /> об условиях гарантии по <br /> продуктам
           </p>
         </div>
         <div className="services__container-box">
-          <img
-            className="services__container-box_image"
-            src={Tool}
-            alt="shield"
-          />
+          <div className="service__icon-wrapper">
+            <img className="services__icon-image" src={Tool} alt="shield" />
+          </div>
+
           <h3 className="services__container-box_title">
-            Условия <br /> гарантии
+            Аксессуары и запчасти
           </h3>
           <p className="services__container-box_info">
             Получить информацию <br /> об условиях гарантии по <br /> продуктам

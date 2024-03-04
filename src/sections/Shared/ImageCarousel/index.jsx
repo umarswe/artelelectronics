@@ -46,7 +46,7 @@ const ImageCarousel = ({ asdfhlakjsdfhkjlahsdljkfhalskdjfh }) => {
 
             <div className="item__container">
               {item.svgContent && (
-                <img className="image__container-text" src={item.svgContent} />
+                <img className="swiper__image-text" src={item.svgContent} />
               )}
 
               {item.newsContent && (
